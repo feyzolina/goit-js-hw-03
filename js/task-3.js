@@ -1,6 +1,6 @@
 function filterArray(numbers, value) {
-    let bigNumber=[];
-    for (let i = 0; i < numbers.length; i++){
+    let bigNumber = [];
+    for (let i = 0; i < numbers.length; i++) {
         if (numbers[i] > value) {
             bigNumber.push(numbers[i]);
 

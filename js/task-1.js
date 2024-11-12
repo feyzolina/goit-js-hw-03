@@ -2,7 +2,7 @@ function slugify(title) {
     return title.toLowerCase()  //küçük harfe çeivr
         .split(" ") //bşluk
         .join("-")  //tire koy
-        
+
 }
 
 console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"
